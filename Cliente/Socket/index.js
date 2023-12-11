@@ -1,6 +1,6 @@
 const io = require('socket.io')(8800, {
     cors: {
-        origin: "https://client-pet-app.onrender.com"
+        origin: "http://localhost:5173"
     }
 })
 

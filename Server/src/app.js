@@ -12,7 +12,7 @@ import fileUpload from 'express-fileupload'
 const app = express()
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://client-pet-app.onrender.com',
     credentials: true
 }))     // que todos los dominios se comuniquen en este servidor
 app.use(morgan('dev'))

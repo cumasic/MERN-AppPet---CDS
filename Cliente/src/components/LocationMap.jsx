@@ -9,7 +9,7 @@ const LocationMap = ({ center }) => {
 
 
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: import.meta.env.VITE_REACT_APP_GOOGLE_MAPS_API_KEY
+    googleMapsApiKey: "AIzaSyAgmP2XLPCHVGdTYKjTidcRto7s5GHVzlI"
   });
 
   if (loadError) return 'Error al cargar el mapa';
